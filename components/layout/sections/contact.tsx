@@ -69,9 +69,11 @@ export const ContactSection = () => {
             <h2 className="text-3xl md:text-4xl font-bold">Connect With Us</h2>
           </div>
           <p className="mb-8 text-muted-foreground lg:w-5/6">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
-            ipsam sint enim exercitationem ex autem corrupti quas tenetur
-          </p>
+  Have questions or need assistance? Whether you&apos;re an institute looking to track student performance or a student aiming to enhance your coding journey, we&apos;re here to help!
+</p>
+
+
+
 
           <div className="flex flex-col gap-4">
             <div>
@@ -80,17 +82,17 @@ export const ContactSection = () => {
                 <div className="font-bold">Find us</div>
               </div>
 
-              <div>742 Evergreen Terrace, Springfield, IL 62704</div>
+              <div>Bhilai-Chhattisgarh,India</div>
             </div>
 
-            <div>
+            {/* <div>
               <div className="flex gap-2 mb-1">
                 <Phone />
                 <div className="font-bold">Call us</div>
               </div>
 
               <div>+1 (619) 123-4567</div>
-            </div>
+            </div> */}
 
             <div>
               <div className="flex gap-2 mb-1">
@@ -98,10 +100,10 @@ export const ContactSection = () => {
                 <div className="font-bold">Mail US</div>
               </div>
 
-              <div>leomirandadev@gmail.com</div>
+              <div>info@crevozone.com</div>
             </div>
 
-            <div>
+            {/* <div>
               <div className="flex gap-2">
                 <Clock />
                 <div className="font-bold">Visit us</div>
@@ -111,7 +113,7 @@ export const ContactSection = () => {
                 <div>Monday - Friday</div>
                 <div>8AM - 4PM</div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
 
@@ -131,7 +133,7 @@ export const ContactSection = () => {
                       <FormItem className="w-full">
                         <FormLabel>First Name</FormLabel>
                         <FormControl>
-                          <Input placeholder="Leopoldo" {...field} />
+                          <Input placeholder="First Name" {...field} />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
@@ -144,7 +146,7 @@ export const ContactSection = () => {
                       <FormItem className="w-full">
                         <FormLabel>Last Name</FormLabel>
                         <FormControl>
-                          <Input placeholder="Miranda" {...field} />
+                          <Input placeholder="Last Name" {...field} />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
@@ -162,7 +164,7 @@ export const ContactSection = () => {
                         <FormControl>
                           <Input
                             type="email"
-                            placeholder="leomirandadev@gmail.com"
+                            placeholder="Email"
                             {...field}
                           />
                         </FormControl>
@@ -189,19 +191,17 @@ export const ContactSection = () => {
                             </SelectTrigger>
                           </FormControl>
                           <SelectContent>
-                            <SelectItem value="Web Development">
-                              Web Development
+                            <SelectItem value="Request Demo">
+                            Request Demo
                             </SelectItem>
-                            <SelectItem value="Mobile Development">
-                              Mobile Development
+                            <SelectItem value="Schedule a Meeting">
+                            Schedule Meeting
                             </SelectItem>
-                            <SelectItem value="Figma Design">
-                              Figma Design
+                            <SelectItem value="Support">
+                            Support
                             </SelectItem>
-                            <SelectItem value="REST API">REST API</SelectItem>
-                            <SelectItem value="FullStack Project">
-                              FullStack Project
-                            </SelectItem>
+                            <SelectItem value="Other">Other</SelectItem>
+                          
                           </SelectContent>
                         </Select>
                         <FormMessage />

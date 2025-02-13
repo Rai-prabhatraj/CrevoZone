@@ -67,14 +67,14 @@ export const testimonials = [
   {
     text: "Crevozone has transformed how I track my coding progress across multiple platforms. It's a game-changer!",
     imageSrc: avatar1.src,
-    name: "Aarav Mehta",
-    username: "@aarav.mehta08",
+    name: "Aaravi Mehta",
+    username: "@aaravi.mehta08",
   },
   {
     text: "With Crevozone’s leaderboard, I can easily compare my coding skills with peers and push myself to improve.",
     imageSrc: avatar2.src,
-    name: "Priya Sharma",
-    username: "@priyasharma_dev",
+    name: "Priyansh Sharma",
+    username: "@priyansharma_dev",
   },
   {
     text: "This platform makes it super easy to access all hackathons and contests in one place. No more searching for opportunities!",
@@ -85,8 +85,8 @@ export const testimonials = [
   {
     text: "The AI-powered resume checker helped me refine my resume and land multiple interview calls!",
     imageSrc: avatar4.src,
-    name: "Ananya Iyer",
-    username: "@ananya.codes",
+    name: "Mathew John",
+    username: "@mathewjohn_",
   },
   {
     text: "I love how Crevozone integrates data from different coding platforms and presents a clear skill analysis.",
