@@ -11,39 +11,39 @@ interface FeaturesProps {
 const featureList: FeaturesProps[] = [
   {
     icon: "TabletSmartphone",
-    title: "Mobile Friendly",
+    title: "AI-Powered Skill & Performance Analytics",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam, consectetur.",
+      "Advanced AI-driven algorithms analyze coding patterns, problem-solving efficiency, and language proficiency to provide deep insights into student capabilities.",
   },
   {
     icon: "BadgeCheck",
-    title: "Social Proof",
+    title: "Real-Time Coding Progress Dashboard",
     description:
-      "Lorem ipsum dolor sit amet consectetur. Natus consectetur, odio ea accusamus aperiam.",
+      "A personalized dashboard aggregates coding stats, submissions, accuracy rates, and rankings, giving students & institutes a comprehensive coding portfolio.",
   },
   {
     icon: "Goal",
-    title: "Targeted Content",
+    title: "Automated Hackathon & Contest Aggregation",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. odio ea accusamus aperiam.",
+      "Students get access to multiple coding contests, hackathons, and challenges from leading platforms—all in one place, ensuring continuous competitive learning.",
   },
   {
     icon: "PictureInPicture",
-    title: "Strong Visuals",
+    title: "Smart Referral & Placement System",
     description:
-      "Lorem elit. A odio velit cum aliquam. Natus consectetur dolores, odio ea accusamus aperiam.",
+      "Crevozone enables institutes to identify top performers and directly refer them to companies, backed by data-driven performance metrics.",
   },
   {
     icon: "MousePointerClick",
-    title: "Clear CTA",
+    title: "AI-Powered Student Performance Analytics",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing. odio ea accusamus consectetur.",
+      "Get real-time, data-driven insights into student performance, coding efficiency, and progress across multiple platforms like LeetCode, CodeChef, and HackerRank.",
   },
   {
     icon: "Newspaper",
-    title: "Clear Headline",
+    title: "Placement-Ready Talent Identification",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur.",
+      "Identify top-performing students using AI-driven metrics and directly connect them with hiring companies, boosting placement rates.",
   },
 ];
 
@@ -59,29 +59,29 @@ export const FeaturesSection = () => {
       </h2>
 
       <h3 className="md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-8">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem
-        fugiat, odit similique quasi sint reiciendis quidem iure veritatis optio
-        facere tenetur.
+        Empowering students and institutes with AI-driven insights, real-time
+        tracking, and automated placement solutions.
       </h3>
 
-      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {featureList.map(({ icon, title, description }) => (
           <div key={title}>
-            <Card className="h-full bg-background border-0 shadow-none">
-              <CardHeader className="flex justify-center items-center">
-                <div className="bg-primary/20 p-2 rounded-full ring-8 ring-primary/10 mb-4">
+            <Card className="h-full bg-background border border-gray-200 shadow-md p-6 rounded-lg">
+              <CardHeader className="flex flex-col items-start space-y-4">
+                <div className="bg-primary/20 p-3 rounded-full ring-8 ring-primary/10">
                   <Icon
                     name={icon as keyof typeof icons}
-                    size={24}
+                    size={28}
                     color="hsl(var(--primary))"
                     className="text-primary"
                   />
                 </div>
-
-                <CardTitle>{title}</CardTitle>
+                <CardTitle className="text-left text-lg font-semibold">
+                  {title}
+                </CardTitle>
               </CardHeader>
 
-              <CardContent className="text-muted-foreground text-center">
+              <CardContent className="text-left text-gray-600 leading-relaxed">
                 {description}
               </CardContent>
             </Card>

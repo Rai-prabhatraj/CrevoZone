@@ -13,33 +13,28 @@ interface FAQProps {
 
 const FAQList: FAQProps[] = [
   {
-    question: "Is this template free?",
-    answer: "Yes. It is a free NextJS Shadcn template.",
+    question: "What is this platform designed for?",
+    answer:
+      "Our platform helps you connect with teammates, collaborate on hackathons, and manage educational projects seamlessly. We offer skill-based team matching, real-time collaboration tools, and project management for educational and professional needs.",
     value: "item-1",
   },
   {
-    question: "Duis aute irure dolor in reprehenderit in voluptate velit?",
+    question: "How does the skill-based matching feature work?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint labore quidem quam consectetur sapiente, iste rerum reiciendis animi nihil nostrum sit quo, modi quod.",
+      "The platform uses an intelligent algorithm to suggest teammates whose skills complement yours, ensuring effective collaboration for your projects or hackathons.",
     value: "item-2",
   },
   {
-    question:
-      "Lorem ipsum dolor sit amet Consectetur natus dolor minus quibusdam?",
+    question: "Can I use this platform for academic and professional projects?",
     answer:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore qui nostrum reiciendis veritatis.",
+      "Yes! Our platform supports both academic and professional collaborations, whether for hackathons, study groups, or professional project teams.",
     value: "item-3",
   },
   {
-    question: "Excepteur sint occaecat cupidata non proident sunt?",
-    answer: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    question: "How does the AI-powered teammate matching work?",
+    answer:
+      "Our AI analyzes user profiles, skills, availability, and project needs to recommend teammates, ensuring a well-balanced and effective team.",
     value: "item-4",
-  },
-  {
-    question:
-      "Enim ad minim veniam, quis nostrud exercitation ullamco laboris?",
-    answer: "consectetur adipisicing elit. Sint labore.",
-    value: "item-5",
   },
 ];
 

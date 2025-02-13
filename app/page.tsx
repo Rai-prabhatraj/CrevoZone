@@ -44,17 +44,17 @@ export const metadata = {
 export default function Home() {
   return (
     <>
-    <Hero/>
+      <Hero />
       <HeroSection />
-  
+
       <BenefitsSection />
       <FeaturesSection />
-      <ServicesSection />
+      {/* <ServicesSection /> */}
       <Grid />
-   
+
       <CommunitySection />
- 
-        <Testimonials />
+
+      <Testimonials />
       <ContactSection />
       <FAQSection />
       <FooterSection />

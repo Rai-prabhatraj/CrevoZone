@@ -11,27 +11,27 @@ interface BenefitsProps {
 const benefitList: BenefitsProps[] = [
   {
     icon: "Blocks",
-    title: "Build Brand Trust",
+    title: "Comprehensive Student Performance Tracking",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur dolores.",
+      "Monitor students’ coding progress across multiple platforms in real-time with automated leaderboards and in-depth analytics",
   },
   {
     icon: "LineChart",
-    title: "More Leads",
+    title: "Industry-Ready Talent Identification",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam, natus consectetur.",
+      "Easily identify top-performing students and refer them to leading companies, enhancing placement rates & reputation.",
   },
   {
     icon: "Wallet",
-    title: "Higher Conversions",
+    title: "Boost Institutional Recognition",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus consectetur. A odio velit cum aliquam",
+      "Showcase your institute’s top performers and achievements, attracting better opportunities and partnerships.",
   },
   {
     icon: "Sparkle",
-    title: "Test Marketing Ideas",
+    title: "Personalized Dashboards for Students",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur dolores.",
+      "Provide students with easy access to coding resources, performance tracking, and contest updates in one place.",
   },
 ];
 
@@ -43,12 +43,11 @@ export const BenefitsSection = () => {
           <h2 className="text-lg text-primary mb-2 tracking-wider">Benefits</h2>
 
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Your Shortcut to Success
+            AI-Powered Insights for Smarter Talent Management
           </h2>
           <p className="text-xl text-muted-foreground mb-8">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non
-            ducimus reprehenderit architecto rerum similique facere odit
-            deleniti necessitatibus quo quae.
+            Leverage AI-driven analytics to track student performance, identify
+            top talent, and enhance placements with data-backed decisions.
           </p>
         </div>
 
